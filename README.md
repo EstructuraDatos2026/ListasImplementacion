@@ -25,17 +25,16 @@ En el ejercicio 2 se utiliza una lista enlazada simple propia, mediante las clas
 ## Cómo compilar y ejecutar
 Desde la carpeta del ejercicio 2, ejecutar:
 
-```cmd
+cmd
 javac Main.java Nodo.java ListaSimple.java
 java Main
-```
 
 Después, escribir una cadena de letras minúsculas y presionar Enter.
 
 ## Pruebas del ejercicio 2
 
 ### 1. Caso normal
-Se utiliza la palabra `programacion` para comprobar el conteo de las letras.
+Se utiliza la palabra `parangaricutirimicuaro` para comprobar el conteo de las letras.
 
 ![Prueba normal](imagenes/01_prueba_normal.png)
 
@@ -103,5 +102,3 @@ Se muestra la captura del resultado obtenido al enviar la solución del ejercici
 
 ## Conclusión
 Al realizar este ejercicio practiqué cómo implementar una lista enlazada simple, recorrer sus nodos e insertar nuevos elementos antes de los números impares. También comprobé el funcionamiento del programa con diferentes entradas y envié la solución a omegaUp.
-
-
