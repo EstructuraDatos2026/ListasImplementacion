@@ -197,33 +197,32 @@ text
 
 Se comprueba el ejemplo del problema y que las dos listas se combinen en orden descendente.
 
-![Prueba normal](imagenes/13_ejercicio8_prueba_normal.png)
+![Prueba normal](../imagenes/13_ejercicio8_prueba_normal.png)
 
 #### 2. Prueba con números iguales
 
 Se comprueba que el programa conserve los valores repetidos al combinar ambas listas.
 
-![Prueba con números iguales](imagenes/14_ejercicio8_prueba_iguales.png)
+![Prueba con números iguales](../imagenes/14_ejercicio8_prueba_iguales.png)
 
 #### 3. Prueba con números negativos
 
 Se verifica que los números negativos y el cero se muestren correctamente de mayor a menor.
 
-![Prueba con números negativos](imagenes/15_ejercicio8_prueba_negativos.png)
+![Prueba con números negativos](../imagenes/15_ejercicio8_prueba_negativos.png)
 
 #### 4. Prueba con valores diferentes
 
 Se utilizan dos listas con valores diferentes para comprobar que todos los números se combinen en el orden correcto.
 
-![Prueba con valores diferentes](imagenes/16_ejercicio8_prueba_varios.png)
+![Prueba con valores diferentes](../imagenes/16_ejercicio8_prueba_varios.png)
 
 #### 5. Veredicto de omegaUp
 
 Se muestra la evidencia del envío de la solución al juez en línea omegaUp.
 
-![Veredicto de omegaUp](imagenes/17_ejercicio8_veredicto_omegaup.png)
+![Veredicto de omegaUp](../imagenes/17_ejercicio8_veredicto_omegaup.png)
 
 ### Conclusión
 
 Con este ejercicio practiqué la combinación de dos listas ordenadas y el uso de listas enlazadas en Java. También aprendí a comparar los elementos para obtener una lista ordenada de mayor a menor y comprobé el funcionamiento del programa con diferentes pruebas.
-
