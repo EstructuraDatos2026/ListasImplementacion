@@ -161,3 +161,69 @@ Se muestra la captura del resultado obtenido al enviar la solución a omegaUp.
 ## Conclusión
 
 Con este ejercicio practiqué el uso de listas enlazadas simples en Java. También aprendí a recorrer una lista para calcular la suma máxima de varias cajas consecutivas y comprobé el funcionamiento del programa mediante diferentes pruebas y su envío a omegaUp.
+
+# Ejercicio 8: Derdenio y sus Estructuras de Datos
+
+## Descripción
+
+El objetivo de este ejercicio es combinar dos listas de números enteros que están ordenadas de menor a mayor y mostrar todos sus elementos en una sola lista ordenada de mayor a menor.
+
+Para resolverlo, se recorren las dos listas desde sus valores más grandes y se compara cuál es mayor. El número seleccionado se agrega al resultado hasta combinar todos los elementos.
+
+## Archivos del programa
+
+- `Main.java`: lee los datos y muestra el resultado.
+- `Nodo.java`: representa cada nodo que almacena un número.
+- `ListaSimple.java`: implementa la lista enlazada y combina los números de mayor a menor.
+
+## Ejemplo de ejecución
+
+**Entrada:**
+
+text
+5
+1 7 9 12 23
+2 3 8 14 24
+```
+
+**Salida esperada:**
+
+text
+24 23 14 12 9 8 7 3 2 1
+
+## Evidencias de las pruebas
+
+### 1. Prueba normal
+
+Se comprueba el ejemplo del problema y que las dos listas se combinen en orden descendente.
+
+![Prueba normal](imagenes/13_ejercicio8_prueba_normal.png)
+
+### 2. Prueba con números iguales
+
+Se comprueba que el programa conserve los valores repetidos al combinar ambas listas.
+
+![Prueba con números iguales](imagenes/14_ejercicio8_prueba_iguales.png)
+
+### 3. Prueba con números negativos
+
+Se verifica que los números negativos y el cero se muestren correctamente de mayor a menor.	
+
+![Prueba con números negativos](imagenes/15_ejercicio8_prueba_negativos.png)
+
+### 4. Prueba con valores diferentes
+
+Se utilizan dos listas con cantidades diferentes para comprobar que todos los números se combinen en el orden correcto.
+
+![Prueba con valores diferentes](imagenes/16_ejercicio8_prueba_varios.png)
+
+### 5. Veredicto de omegaUp
+
+Se muestra la evidencia del envío de la solución al juez en línea omegaUp.
+
+![Veredicto de omegaUp](imagenes/17_ejercicio8_veredicto_omegaup.png)
+
+## Conclusión
+
+Con este ejercicio practiqué la combinación de dos listas ordenadas y el uso de listas enlazadas en Java. También aprendí a comparar los elementos para obtener una lista ordenada de mayor a menor y comprobé el funcionamiento del programa con diferentes pruebas.
+
