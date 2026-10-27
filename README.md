@@ -212,13 +212,7 @@ Se verifica que los números negativos y el cero se muestren correctamente de ma
 
 ![Prueba con números negativos](imagenes/15_ejercicio8_prueba_negativos.png)
 
-#### 4. Prueba con valores diferentes
-
-Se utilizan dos listas con valores diferentes para comprobar que todos los números se combinen en el orden correcto.
-
-![Prueba con valores diferentes](imagenes/16_ejercicio8_prueba_varios.png)
-
-#### 5. Veredicto de omegaUp
+#### 4. Veredicto de omegaUp
 
 Se muestra la evidencia del envío de la solución al juez en línea omegaUp.
 
