@@ -102,3 +102,62 @@ Se muestra la captura del resultado obtenido al enviar la solución del ejercici
 
 ## Conclusión
 Al realizar este ejercicio practiqué cómo implementar una lista enlazada simple, recorrer sus nodos e insertar nuevos elementos antes de los números impares. También comprobé el funcionamiento del programa con diferentes entradas y envié la solución a omegaUp.
+
+# Ejercicio 6: Cajas de dulces
+
+## Descripción
+
+En este ejercicio se necesita encontrar la mayor cantidad de dulces que se pueden obtener al elegir un número determinado de cajas consecutivas.
+
+Para resolverlo, utilicé una lista enlazada simple donde se guardan las cantidades de dulces de cada caja. Después, el programa calcula la suma de las primeras cajas y va avanzando por la lista para encontrar la suma más grande.
+
+## Archivos del programa
+
+- `Main.java`: lee los datos y muestra el resultado.
+- `Nodo.java`: representa cada caja dentro de la lista.
+- `ListaSimple.java`: almacena las cajas y calcula la suma máxima.
+
+## Ejemplo de ejecución
+
+**Entrada:**
+
+```text
+10 4
+3 9 9 1 9 10 8 7 2 16
+```
+
+**Salida esperada:**
+
+```text
+34
+```
+
+## Evidencias de las pruebas
+
+### 1. Prueba normal
+
+Se utiliza el ejemplo principal del problema para comprobar que el programa encuentre la suma máxima de cajas consecutivas.
+
+![Prueba normal](imagenes/09_ejercicio6_prueba_normal.png)
+
+### 2. Prueba límite
+
+Se prueba con cinco cajas y se seleccionan dos consecutivas.
+
+![Prueba límite](imagenes/10_ejercicio6_prueba_limite.png)
+
+### 3. Prueba con valores iguales
+
+Se comprueba el funcionamiento con seis cajas que contienen cinco dulces cada una, seleccionando tres consecutivas.
+
+![Prueba con valores iguales](imagenes/11_ejercicio6_prueba_varios.png)
+
+### 4. Veredicto de omegaUp
+
+Se muestra la captura del resultado obtenido al enviar la solución a omegaUp.
+
+![Veredicto de omegaUp](imagenes/12_ejercicio6_veredicto_omegaup.png)
+
+## Conclusión
+
+Con este ejercicio practiqué el uso de listas enlazadas simples en Java. También aprendí a recorrer una lista para calcular la suma máxima de varias cajas consecutivas y comprobé el funcionamiento del programa mediante diferentes pruebas y su envío a omegaUp.
